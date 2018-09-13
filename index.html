@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TouchVision Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+
+   <meta name="description" content="This is the official webpage of TouchVision">
+  <meta name="keywords" content="multimodalbooks,multisensory,inclusive,children,specialeducation,childrenwithspecialneeds,visuallyimpaired,disabilities,tactile,tangible,educationalresources,science,maths,maps,geography,blind,tactile,touch,vision,weak,eyesight,nvda,NVDA,books,stories">
+  <link href="style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+<div>
+<nav >
+	
+		<div>
+      <span>
+         <a id="navbar-brand" href="#" ><img src="cube5.png" alt="TouchVision logo" id="logo-img"></a></span>
+
+         
+
+         <div class="topnav topnav-right" id="myTopnav" >
+            <a href="#home" class="black1" id="homeno">Home</a>
+            <a href="#aboutus" class="black1">About</a>
+            <a href="#demovideo" class="black1">Demo</a>
+            <a href="#features" class="black1">Features</a>
+            <a href="#features" class="black1">Features</a>
+            <a href="#awards" class="black1">Awards</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+
+
+          <script>
+            function myFunction() 
+            {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") 
+              {
+                 x.className += " responsive";
+              }
+              else 
+              {
+                 x.className = "topnav";
+               }
+            }
+          </script>
+	</div>
+</nav>
+</div>
+<div id="home">
+	<div class="bg-img"><img src="final-960.png" alt="cover" id="bg-img1"> 
+ 
+  
+    <div class="bottom-left">Enabling Inclusive Education</div>
+ 
+		
+ 
+  </div>
+  </div>
+<div class="about-us" id="aboutus">
+  <div class="padding">
+    <div class="container">
+      <div class="row">
+        <div id="section1" >
+        <div class="col-sm-12 ">
+
+
+          <h2 class="text-center col-sm-12">About Us<br/><br/></h2>
+          <p class="lead">TOUCHVISION started as an M. Tech project at IIT Delhi in 2015.Further research and development is supported by Ministry of Electronics and Information Technology through COETG initiative. The team comprises of experts with prior experience in assistive technologies for visually impaired people at Assistech, IIT Delhi. Our vision is to contribute to “development with all, for all” agenda for inclusive development by speeding up the inclusion of persons with visual impairment in education ecosystem.</p>
+          
+      </div>
+       </div>
+    </div>
+    
+    </div>
+  </div> 
+  </div>
+
+  <div class="padding" id="demovideo">
+    <div class="container">
+      <div class="row">
+        <h2 class="text-center col-sm-12 demo">Demo Video<br/><br/></h2>
+        <p class="text-center col-sm-12">
+        
+        <iframe id="existing-iframe-example"
+        width="960" height="560" 
+        src="https://www.youtube.com/embed/uAf9LDLo3z4?enablejsapi=1"
+        frameborder="0"
+        
+></iframe>
+
+<script type="text/javascript">
+  var tag = document.createElement('script');
+  tag.id = 'iframe-demo';
+  tag.src = 'https://www.youtube.com/iframe_api';
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  var player;
+  function onYouTubeIframeAPIReady() {
+    player = new YT.Player('existing-iframe-example', {
+        events: {
+          'onReady': onPlayerReady,
+          'onStateChange': onPlayerStateChange
+        }
+    });
+  }
+  function onPlayerReady(event) {
+    document.getElementById('existing-iframe-example').style.borderColor = '#FF6D00';
+  }
+  function changeBorderColor(playerStatus) {
+    var color;
+    if (playerStatus == -1) {
+      color = "#37474F"; // unstarted = gray
+    } else if (playerStatus == 0) {
+      color = "#FFFF00"; // ended = yellow
+    } else if (playerStatus == 1) {
+      color = "#33691E"; // playing = green
+    } else if (playerStatus == 2) {
+      color = "#DD2C00"; // paused = red
+    } else if (playerStatus == 3) {
+      color = "#AA00FF"; // buffering = purple
+    } else if (playerStatus == 5) {
+      color = "#FF6DOO"; // video cued = orange
+    }
+    if (color) {
+      document.getElementById('existing-iframe-example').style.borderColor = color;
+    }
+  }
+  function onPlayerStateChange(event) {
+    changeBorderColor(event.data);
+  }
+</script>
+  
+      </p>  
+     </div>
+    
+    </div>
+  </div> 
+<div id="features" >
+  <div class="padding">
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-sm-6">
+  				<img src ="TouchVision.png">
+  			</div>
+  			<div class="col-sm-6 text-center">
+  				<h2>MULTISENSORY LEARNING <br/><br/></h2>
+  				<p class="lead">Augments audio with tactile diagram to enhance understanding for  children with visual impairment</p>
+  				
+  		</div>
+  	</div>
+  	
+  	</div>
+  </div> 
+
+
+<div class="padding">
+  	<div class="container">
+  		<div class="row">
+  			
+  			<div class="col-sm-6 text-center">
+  				<h2>IMAGE PROCESSING<br/><br/></h2>
+  				<p class="lead">Mobile app tracks finger movement over tactile graphic and provides audio label and description</p>
+  				
+  		</div>
+  		<div class="col-sm-6">
+  				<img src ="TouchVision_product.jpg">
+  			</div>
+  	</div>
+  	
+  	</div>
+  </div> 
+
+   <div class="padding">
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-sm-6">
+  				<img src ="TouchVision_Fingermarker.jpg">
+  			</div>
+  			<div class="col-sm-6 text-center">
+  				<h2>INTERACTIVE TACTILE GRAPHICS<br/><br/></h2>
+  				<p class="lead">Kids wear pointer ring to listen to audio label and description of tactile diagram. </p>
+          <p class="lead">Supports multi layer description through gestures for individualized learning </p>
+  				
+  		</div>
+  	</div>
+  	
+  	</div>
+  </div> 
+
+
+<div class="padding">
+  	<div class="container">
+  		<div class="row">
+  			
+  			<div class="col-sm-6 text-center">
+  				<h2>USER CENTRIC DESIGN<br/><br/></h2>
+  				<p class="lead">Audio instructions and talkback compatible application interface for user assistance. Tactile graphics design as per international guidelines.</p>
+  				
+  		</div>
+      <p class="lead"></p>
+  		<div class="col-sm-6">
+  				<img src ="TouchVision_3.jpg">
+  			</div>
+  	</div>
+  	
+  	</div>
+  </div> 
+<div class="padding">
+    <div class="container"  style="height: 396.663px">
+      <div class="row">
+        
+        
+      <div class="col-sm-6">
+          <img src ="cover.jpg" style="height: 356.63px">
+        </div>
+
+        <div class="col-sm-6 text-center">
+          <h2>WORKS WITH ANY TANGIBLE OBJECT<br/><br/></h2>
+          <p class="lead">For storybooks, flash cards, counting games, alphabet learning games and many more…</p>
+          
+      </div>
+    </div>
+    
+    </div>
+  </div> 
+</div> 
+<div id="awards" >
+  <div class="padding">
+  	<div class="container">
+  		<div class="row">
+  			<div class="col -lg-4 col-md-4 col-sm-12 col-xs-12">
+  				<img src ="touchvisiongyti.jpg" style="height: 239.84px; width: 345px; padding-left:0px;" class="img-responsive">
+  				<h4 style="color: #54575a">Gandhian Young Technological Innovator Award from President of India</h4>
+
+  			</div>
+
+  			<div class="col -lg-4 col-md-4 col-sm-12 col-xs-12">
+  				<img src ="TouchvisionIIGP2.0.jpg" style="height: 239.84px;width: 345px;" class="img-responsive">
+  				<h4 style="color: #54575a">India Innovation Growth Programme 2</h4>
+
+  			</div>
+
+  			<div class="col -lg-4 col-md-4 col-sm-12 col-xs-12">
+  				<img src ="touchvisioncii3m.jpg" style="height: 239.84px;width: 345px" class="img-responsive">
+  				<h4 style="color: #54575a">3M CII Young Innovators Challenge</h4>
+
+  			</div>
+
+  		</div>
+  	</div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+        <h3 style="color: #54575a"><strong>Contact Us</strong></h3>
+         <div class="seprator"></div>
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <form method="post" action="send_mail.php">
+
+    <label for="fname" >Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..." required>
+
+    <label for="email" >Email</label>
+    <input id="email" name="email_address" placeholder="Valid Email Address..." type="email" required>
+    
+   <label for="subject">Subject</label>
+    <input type="text" id="subject" name="subject" placeholder="Subject..." maxlength="500" required>
+
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Write something..." style="height:200px" maxlength="500" required></textarea>
+
+
+    <button type="submit" value="Submit" name="submit" style="font-weight: bold; font-size: 18px;">Submit</button>
+    
+
+  </form>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+<div id= "contact">
+<footer class="container-fluid text-center footer1">
+	<div class="row">
+		<div class="col-sm-4">
+			<h3>Address</h3>
+			<br>
+			<h4>Module 12 TB1,DBEB Block -1 Extension</h4>
+			<h4>IIT Delhi,Hauz Khas,New Delhi-110064</h4>                                
+		</div>
+		<div class="col-sm-4">
+			<h3>Connect with Us</h3>
+			<a href="https://www.facebook.com/TouchVisionTech/" class="fa fa-facebook"></a>
+			<a href="https://www.facebook.com/TouchVisionTech/" class="fa fa-youtube">
+				
+			</a>
+			<a href="https://www.facebook.com/TouchVisionTech/" class="fa fa-linkedin"></a><a href="https://www.facebook.com/TouchVisionTech/" class="fa fa-twitter"></a>
+		</div>
+		<div class="col-sm-4">
+			<h3>Helpline Number</h3>
+			<br>
+			<h4>+91-8076012192</h4>
+		</div>
+	</div>
+  </div>
+</footer>
+</body>
+</html>
